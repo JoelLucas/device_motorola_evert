@@ -2,7 +2,7 @@
   {
     "repository"  : "vendor_motorola_evert",
     "target_path" : "vendor/motorola/evert",
-    "branch"      : "eleven-wip",
+    "branch"      : "eleven",
     "remote"      : "pixel-devices-blobs"
   },
   {
