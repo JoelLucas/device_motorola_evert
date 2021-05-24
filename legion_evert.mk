@@ -16,7 +16,7 @@
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -68,14 +68,17 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := evert
-PRODUCT_NAME := aosp_evert
+PRODUCT_NAME := legion_evert
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G6 Plus
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := evert
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=evert \
     PRIVATE_BUILD_DESC="evert-user 8.0.0 OPW27.113-89 116 release-keys"
 
 BUILD_FINGERPRINT := motorola/evert/evert:8.0.0/OPW27.113-89/116:user/release-keys
+
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+ ro.maintainer.name=JoelLucas

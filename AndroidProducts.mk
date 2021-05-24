@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_evert.mk
+    $(LOCAL_DIR)/legion_evert.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_evert-eng \
-    aosp_evert-user \
-    aosp_evert-userdebug
+    legion_evert-eng \
+    legion_evert-user \
+    legion_evert-userdebug
