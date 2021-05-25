@@ -27,4 +27,17 @@
     <dimen name="fingerprint_dot_radius">5dp</dimen>
     <item name="fingerprint_sensor_location_fraction_y" type="fraction">95%</item>
 
+    <!--  Battery Health  -->
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
+    <bool name="config_supportBatteryHealth">true</bool>
+  
+    <!--  Legion About Phone  -->
+    <string name="legion_device_name_summary">Motorola moto g6 plus</string>
+    <string name="legion_chipset_type_summary">SDM630</string>
+    <string name="legion_gpu_summary">Adreno(TM)508</string>
+    <string name="legion_camera_mp_summary">12/5/8</string>
+    <string name="legion_screen_type_summary">5.9" IPS LCD</string>
+
 </resources>
