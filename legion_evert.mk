@@ -24,6 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Device
 $(call inherit-product, device/motorola/evert/device.mk)
+$(call inherit-product-if-exists, vendor/google/gms/gms-vendor.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
