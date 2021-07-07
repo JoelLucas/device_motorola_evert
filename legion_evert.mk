@@ -87,3 +87,8 @@ PRODUCT_OVERRIDE_FINGERPRINT := google/evert/evert:8.0.0/OPW27.113-89/116:user/r
 # LegionOS Device Maintainers
 PRODUCT_PROPERTY_OVERRIDES += \
  ro.maintainer.name=JoelLucas
+
+# Adds face unlock if package is available on
+# ROM source.
+TARGET_SUPPORT_FACE_UNLOCK := true
+
