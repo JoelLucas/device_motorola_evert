@@ -74,12 +74,12 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G6 Plus
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := evert
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="moto g6 plus" \
-    PRODUCT_DEVICE=evert \
-    PRIVATE_BUILD_DESC="evert-user 8.0.0 OPW27.113-89 116 release-keys"
 
-BUILD_FINGERPRINT := motorola/evert/evert:8.0.0/OPW27.113-89/116:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=evert \
+    PRIVATE_BUILD_DESC="redfin-user 11 RD2A.210905.003 7181113 release-keys"
+
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RD2A.210905.003/7181113:user/release-keys
 
 PRODUCT_OVERRIDE_INFO := true
 PRODUCT_OVERRIDE_FINGERPRINT := google/evert/evert:8.0.0/OPW27.113-89/116:user/release-keys
